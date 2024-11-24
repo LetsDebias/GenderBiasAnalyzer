@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecting Gender Bias in Datasets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 80%;
+            height: 80%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .title {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 20px;
+            z-index: 1;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0 20px;
+        }
+        .content h2 {
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .button-container {
+            position: sticky;
+            bottom: 0;
+            background: white;
+            padding: 10px 20px;
+            z-index: 1;
+            display: flex;
+            justify-content: flex-end;
+            border-top: 2px solid #e0e0e0;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Detecting Gender Bias in Datasets</h1>
+        </div>
+        <div class="content">
+            <h2>Objective</h2>
+            <p>The aim is to create a software tool capable of checking datasets for the presence of proxy variables, with an initial focus on detecting gender bias. Over time, the goal is to extend the tool to identify other forms of bias. By doing so, this tool will help integrate AI Governance into practice, making compliance with regulations practically feasible.</p>
+            
+            <h2>Motivation</h2>
+            <p>It's crucial to develop a tool that can scan datasets for proxy variables to detect bias. From a legal perspective (EU/NL), everyone must be treated equally in comparable situations, and discrimination based on religion, belief, political affiliation, race (ethnicity), gender, or any other grounds is prohibited. Furthermore, specific laws criminalize such forms of discrimination.</p>
+            
+            <h2>Target Audience</h2>
+            <p>This tool is designed for developers and users of AI systems. The AI Act mandates that developers and users take measures to ensure their systems do not produce discriminatory effects. Detecting bias in datasets is essential to comply with these legal requirements and to ensure fair and equal treatment.</p>
+            
+            <h2>Relevance in AI Governance</h2>
+            <p>AI Governance aims to ensure that AI systems align with the organization's goals while adhering to societal objectives and legal requirements. One of the initial steps in AI system development is selecting the training and input datasets. This critical first step often harbors potential issues that can conflict with these requirements.</p>
+            
+            <h2>Challenges in Algorithm Understanding</h2>
+            <p>Developers of AI and ICT systems frequently lack a deep understanding of the algorithms they employ, particularly those they didn't develop themselves. This is especially true for machine learning algorithms, where the patterns identified by the algorithm often remain opaque. New EU regulations mandate that developers—and their users—enhance their understanding of these technologies, emphasizing AI literacy.</p>
+            
+            <h2>Importance of Early Bias Detection</h2>
+            <p>Legally, there is an obligation to treat men and women equally in comparable situations where gender is the only difference. Ideally, any potential bias should be identified early in the development process to prevent any adverse effects or negative media coverage. The law prohibits algorithms (or expert rules) from making explicit, easily recognizable distinctions between men and women.</p>
+            
+            <h2>Implicit Bias in Datasets</h2>
+            <p>The challenge lies in uncovering implicit biases, which stem from the patterns detected within the dataset. Excluding gender from the training or input data does not necessarily eliminate the risk of discrimination.</p>
+            
+            <p>In practice, the values for other variables between men and women are often unevenly distributed. For instance, age structure varies across regions, with more women in older age groups. Additionally, work experience can differ due to women often continuing their studies and taking parental leave, which men typically don't experience.</p>
+            
+            <h2>Impact of Historical Bias</h2>
+            <p>When men and women are judged differently in society—unfortunately a common scenario—this bias is reflected in historical datasets. These historical decisions are used as labels when training and validating algorithms or models, leading to men and women being placed into different clusters based on proxy variables. Consequently, the existing bias is perpetuated within the AI system.</p>
+            
+            <h2>Understanding Proxy Variables</h2>
+            <p>From experience, literature, and press releases, many proxy variables have been identified. Statistical agencies maintain lists of proxy variables for their analyses. Proxy variables are commonly used to estimate the value of variables that aren't directly measurable, such as the prevalence of mental health issues within a population.</p>
+            
+            <p>They are also instrumental in estimating the underrepresentation of certain groups and assessing the representativeness of responses in self-reporting. In quantitative studies, proxy variables are well-known tools that help prevent unintended bias and misrepresentation.</p>
+            
+            <h2>Developers' Awareness of Proxy Variables</h2>
+            <p>Developers may be aware of the presence of proxy variables in their datasets, but this awareness is often insufficient in practice. Proxy variables can change over time and vary by region. For instance, the gap in educational attainment between men and women in the EU has reversed over the past 40 years.</p>
+            
+            <h2>Monitoring Social Trends</h2>
+            <p>It is essential to continuously monitor social trends and enable AI systems to understand how these trends manifest locally. The use of proxy variables cannot always be avoided, similar to sensitive variables, as long as their necessity and significance for the intended purpose are carefully considered.</p>
+            
+            <h2>Importance of Awareness</h2>
+            <p>Awareness of the proxy nature of particular variables allows for measures to prevent these variables from leading to legally prohibited gender discrimination. Identifying and preventing bias in an AI system early on is a key aspect of AI Governance in practice.</p>
+            
+            <h2>Subtle Discrimination</h2>
+            <p>Recognizing a proxy variable is particularly challenging when its discriminatory nature is subtle. A notable example is the recruitment tool developed by Amazon. This classification algorithm analyzed CV content, but due to differences in terminology used by men and women (e.g., "women's rowing club"), and because men had historically been selected more often, the algorithm assigned women a lower chance of suitability.</p>
+            
+            <h2>Technical Approach</h2>
+            <p>To identify proxy variables, we rely on a dataset's description. It is not always necessary to analyze the records within the dataset itself if the description is sufficiently detailed. We use descriptions similar to those found on Kaggle, focusing on a general overview of the content, the population, and the meaning of each column.</p>
+            
+            <p>Additionally, understanding the intended use of the dataset is crucial. If the actual data is available, further information can be gathered through dialogue with the user, although this is not essential for the initial version of the tool.</p>
+        </div>
+        <div class="button-container">
+            <a href="/post.html" class="button">Continue to Demo</a>
+        </div>
+    </div>
+</body>
+</html>

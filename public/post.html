@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecting Gender Bias in Datasets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 80%;
+            height: 80%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        textarea {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .left-buttons {
+            display: flex;
+        }
+        .right-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        button, input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100px;
+            text-align: center;
+            position: relative;
+            z-index: 1010;
+        }
+        button:hover, input[type="submit"]:hover {
+            background: #45a049;
+        }
+        .dark-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+        .popup-message {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+            z-index: 1010;
+            cursor: pointer;
+        }
+        .bright-shadow {
+            box-shadow: 0 0 10px 2px #B7F9FF;
+        }
+    </style>
+    <script>
+    
+        const jsonFiles = [
+			'California Housing Prices.json',
+			'COMPAS Recidivism Racial Bias.json',
+			'Credit Card Approval Prediction.json',
+			'Crime Data Analysis.json',
+			'Employee Survey.json',
+			'German Credit Risk.json',
+			'Heart Failure Prediction Dataset.json',
+			'Predict People Personality Types.json',
+			'Remote Work Productivity.json',
+			'Sleep and Health Metrics.json',
+			'Student Mental Health Survey.json',
+			'Student Performance Prediction.json'
+        ];
+
+        let currentFileIndex = Math.floor(Math.random() * jsonFiles.length);
+
+        async function loadExample() {
+            const fileToLoad = jsonFiles[currentFileIndex];
+            try {
+                const response = await fetch(`/${fileToLoad}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    document.getElementById('datasetTitle').value = data.info.title;
+                    document.getElementById('datasetSample').value = data.info.description;
+                } else {
+                    console.error('Failed to load example JSON:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Error loading example JSON:', error);
+            }
+            currentFileIndex = (currentFileIndex + 1) % jsonFiles.length;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadExample();
+
+            const exampleButton = document.querySelector('button[onclick="loadExample()"]');
+            const darkOverlay = document.createElement('div');
+            darkOverlay.className = 'dark-overlay';
+
+            const message = document.createElement('div');
+            message.className = 'popup-message';
+            message.innerHTML = "We loaded an example dataset description.<br><br>Press here to get another one,<br>or write down your own description.";
+            message.addEventListener('click', () => {
+                fadeOut(darkOverlay);
+                exampleButton.classList.remove('bright-shadow');
+            });
+
+            darkOverlay.appendChild(message);
+            document.body.appendChild(darkOverlay);
+
+            if (exampleButton) {
+                exampleButton.classList.add('bright-shadow');
+
+                setTimeout(() => {
+                    fadeOut(darkOverlay);
+                    exampleButton.classList.remove('bright-shadow');
+                }, 2500);
+            }
+        });
+
+        function fadeOut(element) {
+            element.style.opacity = '0';
+            setTimeout(() => {
+                element.remove();
+            }, 250);
+        }
+    </script>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="datasetTitle">Dataset Title:</label>
+        <input type="text" id="datasetTitle" name="datasetTitle">
+        <label for="datasetSample">Dataset Sample:</label>
+        <textarea id="datasetSample" name="datasetSample"></textarea>
+        <div class="button-container">
+            <div class="left-buttons">
+                <button type="button" onclick="window.location.href='/index.html';">Back</button>
+            </div>
+            <div class="right-buttons">
+                <button type="button" onclick="loadExample()">Example</button>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
