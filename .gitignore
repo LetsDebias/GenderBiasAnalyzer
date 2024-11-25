@@ -1,0 +1,7 @@
+
+*.class
+*.csv
+*.py
+*.txt
+/models
+/bin/windows-cuda

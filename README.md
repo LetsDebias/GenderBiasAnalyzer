@@ -16,17 +16,13 @@ Implicit biases originate from dataset patterns, and removing gender data doesn'
 The tool relies on dataset descriptions similar to those found on Kaggle, making it unnecessary to analyze the dataset itself for identifying proxy variables.
 
 ### Step 1:
-Go to http://localhost:8383/index.html
-
-![Screenshot1](images/screenshot1.png)
+Launch either windows-cpu.cmd, or windows-cuda.cmd if you have a nvidia gpu. Linux and MacOS scripts will be shared later.
+The scripts will download a LLM, launch your browser and open http://localhost:8383/index.html
 
 ### Step 2:
-Enter a dataset description, similar in freeformat style as you would find them on [https://kaggle.com](https://www.kaggle.com/datasets). You can use the Example button to get an example description. When done, press Submit.
-
-![Screenshot2](images/screenshot2.png)
+Select a dataset sample, collected from [https://kaggle.com](https://www.kaggle.com/datasets). Or enter your own dataset sample. This will not be uploaded to remote website. It wil remain local.
 
 ### Step 3:
 
 Wait for the algoritm to process your dataset description. Each variable from the description is recognized and analysed for potential risk of (implicit) bias on gender, based on knowlegde from literature on gender bias. Articles that were found usefull in the context of this particular dataset will be cited.
 
-![Screenshot3](images/screenshot3.png)
