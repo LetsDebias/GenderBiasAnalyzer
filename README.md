@@ -1,18 +1,12 @@
 # Dataset Analyser Tool
 
 ## Objective and Motivation
-This is a tool that demonstrates that datasets can be checked for implicit bias, focusing initially on gender bias and later expanding to other biases. This tool aids in integrating AI Governance into practice, ensuring compliance with EU/NL laws for equal treatment regardless of religion, belief, political affiliation, race, gender, etc.
-
-## Target Audience and AI Governance
-A tool like this could be helpful for developers and deployers of AI systems. It helps meet AI Act mandates against discriminatory effects. Detecting bias is essential for compliance and fairness, aligning AI systems with organizational and legal requirements from the outset, in an early stage of development.
+This is a tool checks datasets for implicit gender bias. It demonstrates how LLM's can potentiallay assist in bringing AI Governance into practice, ensuring compliance with European laws for equal treatment of people regardless of religion, belief, political affiliation, race, and gender. An automated approach to detect bias within datasets can be helpful for developers and deployers of AI systems. Detecting bias is essential for compliance and fairness, aligning AI systems with organizational and legal requirements from the outset, in an early stage of development.
 
 ## Challenges and Importance of Bias Detection
-AI and ICT developers often do not have insight into the inner workings of machine learning algorithms and AI models, especially machine learning ones. EU regulations emphasize the need for AI literacy. Early bias detection during development is crucial to comply with legal obligations and prevent negative outcomes. Bias should be addressed early to avoid legal and societal repercussions.
+Early bias detection during development is crucial to comply with legal obligations and prevent negative outcomes. Bias should be addressed early to avoid legal and societal repercussions. Implicit biases originate from dataset patterns, explicitly removing information on someones gender doesn't eliminate discrimination risks. Historical biases in datasets perpetuate discrimination in AI systems. Men and women may be classified unfairly based on proxy variables reflecting past societal biases. Such hidden biases are easily overlooked, but LLM's can be helpful in exploring the risk of such bias within datasets.
 
-## Implicit and Historical Bias in Datasets
-Implicit biases originate from dataset patterns, and removing gender data doesn't eliminate discrimination risks. Historical biases in datasets perpetuate discrimination in AI systems. Men and women may be classified unfairly based on proxy variables reflecting past societal biases.
-
-## Technical Approach...
+## How to launch...
 The tool relies on dataset descriptions similar to those found on Kaggle, making it unnecessary to analyze the dataset itself for identifying proxy variables.
 
 ### Step 1:
