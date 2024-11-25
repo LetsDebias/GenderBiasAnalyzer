@@ -16,7 +16,7 @@ Implicit biases originate from dataset patterns, and removing gender data doesn'
 The tool relies on dataset descriptions similar to those found on Kaggle, making it unnecessary to analyze the dataset itself for identifying proxy variables.
 
 ### Step 1:
-Launch either windows-cpu.cmd, or windows-cuda.cmd if you have a nvidia gpu. Linux and MacOS scripts will be shared later.
+Launch with windows-cpu.cmd. Linux and MacOS scripts will be shared later.
 The scripts will download a LLM, launch your browser and open http://localhost:8383/index.html
 
 ### Step 2:
