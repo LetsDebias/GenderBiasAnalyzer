@@ -1,0 +1,46 @@
+{
+    "errorMessageNullable": null,
+    "info": {
+        "datasetSlugNullable": "heart-failure-prediction",
+        "ownerUserNullable": "fedesoriano",
+        "usabilityRatingNullable": 1.0,
+        "titleNullable": "Heart Failure Prediction Dataset",
+        "subtitleNullable": "11 clinical features for predicting heart disease events.",
+        "descriptionNullable": "### Similar Datasets\n\n- Hepatitis C Dataset: [LINK](https://www.kaggle.com/fedesoriano/hepatitis-c-dataset)\n- Body Fat Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/body-fat-prediction-dataset)\n- Cirrhosis Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/cirrhosis-prediction-dataset)\n- Stroke Prediction Dataset: [LINK](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)\n- Stellar Classification Dataset - SDSS17: [LINK](https://www.kaggle.com/fedesoriano/stellar-classification-dataset-sdss17)\n- Wind Speed Prediction Dataset: [LINK](https://www.kaggle.com/datasets/fedesoriano/wind-speed-prediction-dataset)\n- Spanish Wine Quality Dataset: [LINK](https://www.kaggle.com/datasets/fedesoriano/spanish-wine-quality-dataset)\n\n\n### Context\n\nCardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.\n\nPeople with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.\n\n\n### Attribute Information\n\n1. Age: age of the patient [years]\n1. Sex: sex of the patient [M: Male, F: Female]\n1. ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]\n1. RestingBP: resting blood pressure [mm Hg]\n1. Cholesterol: serum cholesterol [mm/dl]\n1. FastingBS: fasting blood sugar [1: if FastingBS &gt; 120 mg/dl, 0: otherwise]\n1. RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of &gt; 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]\n1. MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]\n1. ExerciseAngina: exercise-induced angina [Y: Yes, N: No]\n1. Oldpeak: oldpeak = ST [Numeric value measured in depression]\n1. ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]\n1. HeartDisease: output class [1: heart disease, 0: Normal]\n\n\n\n### Source\n\nThis dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. The five datasets used for its curation are:\n\n- Cleveland: 303 observations\n- Hungarian: 294 observations\n- Switzerland: 123 observations\n- Long Beach VA: 200 observations\n- Stalog (Heart) Data Set: 270 observations\n\nTotal: 1190 observations\nDuplicated: 272 observations \n\n`Final dataset: 918 observations`\n\nEvery dataset used can be found under the Index of heart disease datasets from UCI Machine Learning Repository on the following link: [https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/)\n\n\n### Citation\n\n&gt; fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.\n\n\n### Acknowledgements\n\nCreators:\n\n1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.\n1. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.\n1. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.\n1. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.\n\nDonor:\nDavid W. Aha (aha '@' ics.uci.edu) (714) 856-8779\n",
+        "datasetId": 1582403,
+        "datasetSlug": "heart-failure-prediction",
+        "hasDatasetSlug": true,
+        "ownerUser": "fedesoriano",
+        "hasOwnerUser": true,
+        "usabilityRating": 1.0,
+        "hasUsabilityRating": true,
+        "totalViews": 1122460,
+        "totalVotes": 2620,
+        "totalDownloads": 164826,
+        "title": "Heart Failure Prediction Dataset",
+        "hasTitle": true,
+        "subtitle": "11 clinical features for predicting heart disease events.",
+        "hasSubtitle": true,
+        "description": "Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease\n40,M,ATA,140,289,0,Normal,172,N,0,Up,0\n49,F,NAP,160,180,0,Normal,156,N,1,Flat,1\n37,M,ATA,130,283,0,ST,98,N,0,Up,0\n48,F,ASY,138,214,0,Normal,108,Y,1.5,Flat,1\n54,M,NAP,150,195,0,Normal,122,N,0,Up,0\n39,M,NAP,120,339,0,Normal,170,N,0,Up,0\n45,F,ATA,130,237,0,Normal,170,N,0,Up,0\n54,M,ATA,110,208,0,Normal,142,N,0,Up,0\n37,M,ASY,140,207,0,Normal,130,Y,1.5,Flat,1\n48,F,ATA,120,284,0,Normal,120,N,0,Up,0\n37,F,NAP,130,211,0,Normal,142,N,0,Up,0\n58,M,ATA,136,164,0,ST,99,Y,2,Flat,1\n39,M,ATA,120,204,0,Normal,145,N,0,Up,0\n49,M,ASY,140,234,0,Normal,140,Y,1,Flat,1\n42,F,NAP,115,211,0,ST,137,N,0,Up,0\n54,F,ATA,120,273,0,Normal,150,N,1.5,Flat,0\n38,M,ASY,110,196,0,Normal,166,N,0,Flat,1\n43,F,ATA,120,201,0,Normal,165,N,0,Up,0\n60,M,ASY,100,248,0,Normal,125,N,1,Flat,1\n36,M,ATA,120,267,0,Normal,160,N,3,Flat,1\n43,F,TA,100,223,0,Normal,142,N,0,Up,0\n44,M,ATA,120,184,0,Normal,142,N,1,Flat,0\n49,F,ATA,124,201,0,Normal,164,N,0,Up,0\n44,M,ATA,150,288,0,Normal,150,Y,3,Flat,1\n40,M,NAP,130,215,0,Normal,138,N,0,Up,0\n36,M,NAP,130,209,0,Normal,178,N,0,Up,0\n53,M,ASY,124,260,0,ST,112,Y,3,Flat,0\n52,M,ATA,120,284,0,Normal,118,N,0,Up,0\n53,F,ATA,113,468,0,Normal,127,N,0,Up,0\n51,M,ATA,125,188,0,Normal,145,N,0,Up,0",
+        "hasDescription": true,
+        "isPrivate": false,
+        "keywords": [
+            "healthcare",
+            "health",
+            "classification",
+            "health conditions",
+            "heart conditions"
+        ],
+        "licenses": [
+            {
+                "nameNullable": "ODbL-1.0",
+                "name": "ODbL-1.0",
+                "hasName": true
+            }
+        ],
+        "collaborators": [],
+        "data": []
+    },
+    "errorMessage": "",
+    "hasErrorMessage": false
+}

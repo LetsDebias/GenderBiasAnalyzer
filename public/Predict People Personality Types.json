@@ -1,0 +1,45 @@
+{
+    "errorMessageNullable": null,
+    "info": {
+        "datasetSlugNullable": "predict-people-personality-types",
+        "ownerUserNullable": "stealthtechnologies",
+        "usabilityRatingNullable": 1.0,
+        "titleNullable": "Predict People Personality Types",
+        "subtitleNullable": "Synthetic Personality Dataset for Predicting MBTI Types",
+        "descriptionNullable": "## Description\n\nThis synthetic dataset is designed to explore and predict Myers-Briggs Type Indicator (MBTI) personality types based on a combination of demographic factors, interest areas, and personality scores. It includes 100K+ samples, each representing an individual with various features that contribute to determining their MBTI type. The dataset can be used to study correlations between different personality dimensions and external factors such as age, gender, education, and interests.\n\n## Feature Descriptions\n\n**Age:** A continuous variable representing the age of the individual.\n\n**Gender:** A categorical variable indicating the gender of the individual. Possible values are 'Male' and 'Female'.\n\n**Education:** A binary variable, A value of 1 indicates the individual has at least a graduate-level education (or higher), and 0 indicates an undergraduate, high school level or Uneducated.\n\n**Interest:** A categorical variable representing the individual's primary area of interest.\n\n**Introversion Score:** A continuous variable ranging from 0 to 10, representing the individual's tendency toward introversion versus extraversion. Higher scores indicate a greater tendency toward extraversion.\n\n**Sensing Score:** A continuous variable ranging from 0 to 10, representing the individual's preference for sensing versus intuition. Higher scores indicate a preference for sensing.\n\n**Thinking Score:** A continuous variable ranging from 0 to 10, indicating the individual's preference for thinking versus feeling. Higher scores indicate a preference for thinking.\n\n**Judging Score:** A continuous variable ranging from 0 to 10, representing the individual's preference for judging versus perceiving. Higher scores indicate a preference for judging.\n\n**Personality:** Target that contains People Personality Type",
+        "datasetId": 5622628,
+        "datasetSlug": "predict-people-personality-types",
+        "hasDatasetSlug": true,
+        "ownerUser": "stealthtechnologies",
+        "hasOwnerUser": true,
+        "usabilityRating": 1.0,
+        "hasUsabilityRating": true,
+        "totalViews": 11774,
+        "totalVotes": 39,
+        "totalDownloads": 2491,
+        "title": "Predict People Personality Types",
+        "hasTitle": true,
+        "subtitle": "Synthetic Personality Dataset for Predicting MBTI Types",
+        "hasSubtitle": true,
+        "description": "Age,Gender,Education,Introversion Score,Sensing Score,Thinking Score,Judging Score,Interest,Personality\n19.0,Male,0,9.4708,7.141433769040908,6.03696,4.360278347246059,Unknown,ENFP\n27.0,Female,0,5.85392,6.160195143997459,0.80552,4.221421070826066,Sports,ESFP\n21.0,Female,0,7.08615,3.388433120634816,2.66188,5.127319577123164,Unknown,ENFP\n28.0,Male,0,2.01892,4.823624399390112,7.30625,5.986550261243721,Others,INTP\n36.0,Female,1,9.91703,4.755080032736203,5.31469,4.677212959749531,Technology,ENFP\n25.0,Male,0,7.66292,5.758030381946754,1.97014,4.5639071604170685,Others,ENFP\n26.0,Female,1,2.73185,5.8989095629946515,3.64832,5.800524624138213,Unknown,INFP\n27.0,Female,0,5.24958,5.963289979260586,1.16176,5.873350203710544,Sports,ENFJ\n29.0,Male,0,8.86018,3.6815699433539484,7.78505,1.6405600773473736,Others,ENTP\n24.0,Female,0,1.62636,5.16090630612241,7.25476,3.825848915879362,Technology,INTP\n20.0,Male,0,4.44978,6.089878211324411,5.61132,5.512740733549341,Unknown,ENFP\n29.0,Female,1,7.69101,4.198218462295224,9.22787,6.078682813501047,Arts,ENTP\n24.0,Male,1,6.91714,4.558755433492363,0.54447,6.19542851798342,Technology,ENFP\n21.0,Male,1,6.98615,5.513660308041457,3.99711,3.81043170194681,Others,ENFP\n23.0,Male,1,5.02108,4.806293808499392,4.41489,4.865309178178281,Unknown,ENFP\n20.0,Male,1,1.05075,3.5388302421549707,3.58539,4.904498267922758,Sports,INFP\n34.0,Female,0,2.97406,6.561362515753111,8.01507,5.291649954974276,Unknown,ESTP\n25.0,Male,1,5.95661,4.675505801811452,4.82753,3.5769749539225484,Technology,ENFP\n22.0,Male,0,1.9881,5.297795822340446,1.94376,4.94771826390347,Unknown,INFP\n22.0,Male,0,4.8135,6.218506801710163,4.97504,4.52122469016506,Others,ENFP\n22.0,Male,0,7.28217,3.892035125177869,6.73086,2.879986213423755,Others,ENTP\n23.0,Male,1,5.14144,5.672516543535155,1.59071,5.465588715160411,Others,ENFP\n35.0,Male,1,3.60059,3.899557984816191,0.74605,5.043054736610004,Technology,INFP\n23.0,Male,1,7.50955,3.9468902797194794,9.52882,5.773542590667019,Arts,ENTP\n25.0,Male,1,3.89745,5.073470127316163,3.24135,5.5652426803346025,Unknown,INFP\n24.0,Male,0,5.99374,5.213776165528277,9.33049,4.250437322618527,Sports,ENTP\n31.0,Male,0,3.46634,4.725418190049961,3.51421,3.769920052096752,Others,INFP\n21.0,Female,0,8.32854,5.210637168898139,0.00892,2.353765162175695,Unknown,ENFP\n25.0,Female,1,2.31423,3.425540266233399,3.2825,4.18511601543237,Sports,INFP\n27.0,Male,0,1.24016,4.6558235532278855,4.47015,4.961120863053499,Unknown,INFP\n",
+        "hasDescription": true,
+        "isPrivate": false,
+        "keywords": [
+            "education",
+            "social science",
+            "demographics",
+            "beginner"
+        ],
+        "licenses": [
+            {
+                "nameNullable": "MIT",
+                "name": "MIT",
+                "hasName": true
+            }
+        ],
+        "collaborators": [],
+        "data": []
+    },
+    "errorMessage": "",
+    "hasErrorMessage": false
+}

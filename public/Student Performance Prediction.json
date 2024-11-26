@@ -1,0 +1,42 @@
+{
+    "errorMessageNullable": null,
+    "info": {
+        "datasetSlugNullable": "student-performance-prediction",
+        "ownerUserNullable": "souradippal",
+        "usabilityRatingNullable": 1.0,
+        "titleNullable": "Student Performance Prediction",
+        "subtitleNullable": "A dummy dataset of 40,000 student data",
+        "descriptionNullable": "This dataset is designed for practicing classification tasks, specifically predicting whether a student will pass or fail a course based on various academic and demographic factors. It contains 40,000 records of students, with attributes including study habits, attendance rates, previous grades, and more. The dataset also introduces challenges such as missing values, incorrect data, and noise, making it ideal for practicing data cleaning, exploratory data analysis (EDA), and feature engineering.",
+        "datasetId": 5553421,
+        "datasetSlug": "student-performance-prediction",
+        "hasDatasetSlug": true,
+        "ownerUser": "souradippal",
+        "hasOwnerUser": true,
+        "usabilityRating": 1.0,
+        "hasUsabilityRating": true,
+        "totalViews": 14418,
+        "totalVotes": 63,
+        "totalDownloads": 3875,
+        "title": "Student Performance Prediction",
+        "hasTitle": true,
+        "subtitle": "A dummy dataset of 40,000 student data",
+        "hasSubtitle": true,
+        "description": "Student ID,Study Hours per Week,Attendance Rate,Previous Grades,Participation in Extracurricular Activities,Parent Education Level,Passed\nS00001,12.5,,75.0,Yes,Master,Yes\nS00002,9.3,95.3,60.6,No,High School,No\nS00003,13.2,,64.0,No,Associate,No\nS00004,17.6,76.8,62.4,Yes,Bachelor,No\nS00005,8.8,89.3,72.7,No,Master,No\nS00006,8.8,73.8,69.3,Yes,High School,Yes\nS00007,17.9,38.6,93.6,No,Doctorate,Yes\nS00008,13.8,95.8,59.2,Yes,Doctorate,No\nS00009,7.7,100.1,91.9,No,Bachelor,Yes\nS00010,12.7,38.4,37.8,Yes,High School,nan\nS00011,7.7,54.1,72.3,No,Master,No\nS00012,7.7,115.5,41.2,Yes,Master,No\nS00013,11.2,79.6,49.6,Yes,Bachelor,nan\nS00014,0.4,75.1,50.4,nan,nan,Yes\nS00015,1.4,66.5,49.2,No,Associate,Yes\nS00016,7.2,54.4,55.9,Yes,High School,No\nS00017,4.9,71.1,98.0,Yes,High School,No\nS00018,11.6,94.5,51.8,No,Bachelor,Yes\nS00019,5.5,74.7,40.8,No,Doctorate,No\nS00020,2.9,87.2,72.4,No,Associate,Yes\nS00021,17.3,110.3,68.6,No,Bachelor,Yes\nS00022,8.9,63.4,98.2,No,Doctorate,No\nS00023,10.3,81.1,64.4,No,High School,No\nS00024,2.9,95.1,30.7,No,Bachelor,Yes\nS00025,7.3,56.3,58.6,Yes,High School,Yes\nS00026,10.6,,58.3,No,Doctorate,Yes\nS00027,4.2,112.4,46.5,nan,High School,Yes\nS00028,11.9,68.2,56.6,Yes,High School,No\nS00029,7.0,96.4,62.8,Yes,Associate,No\nS00030,8.5,72.2,64.1,No,Doctorate,Yes",
+        "hasDescription": true,
+        "isPrivate": false,
+        "keywords": [
+            "education"
+        ],
+        "licenses": [
+            {
+                "nameNullable": "MIT",
+                "name": "MIT",
+                "hasName": true
+            }
+        ],
+        "collaborators": [],
+        "data": []
+    },
+    "errorMessage": "",
+    "hasErrorMessage": false
+}

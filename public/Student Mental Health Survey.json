@@ -1,0 +1,46 @@
+{
+    "errorMessageNullable": null,
+    "info": {
+        "datasetSlugNullable": "student-mental-health-survey",
+        "ownerUserNullable": "abdullahashfaqvirk",
+        "usabilityRatingNullable": 0.8823529411764706,
+        "titleNullable": "Student Mental Health Survey",
+        "subtitleNullable": "Online Survey on the Mental Health of IT Students",
+        "descriptionNullable": "# Student Mental Health Survey\n\nKey aspects covered in the dataset include:\n\n- Demographic details such as gender, age, and university.\n- Academic details like degree level, major, academic year, and current CGPA.\n- Student's residential status and experiences with discrimination, harassment, or bullying on campus.\n- Student's lifestyle factors include frequency of sports engagement and average sleep hours per night.\n- Student's satisfaction with their field of study and their perception of academic workload.\n- Addressing the academic pressure, financial concerns, and the quality of social relationships on campus.\n- Frequency of experiencing depression, anxiety, feelings of isolation, and insecurity about the future.\n- Activities that students engage in to relieve stress.\n\nThis dataset is valuable for researchers, and policymakers interested in student well-being, mental health, and academic success.",
+        "datasetId": 5585109,
+        "datasetSlug": "student-mental-health-survey",
+        "hasDatasetSlug": true,
+        "ownerUser": "abdullahashfaqvirk",
+        "hasOwnerUser": true,
+        "usabilityRating": 0.8823529411764706,
+        "hasUsabilityRating": true,
+        "totalViews": 25393,
+        "totalVotes": 94,
+        "totalDownloads": 6574,
+        "title": "Student Mental Health Survey",
+        "hasTitle": true,
+        "subtitle": "Online Survey on the Mental Health of IT Students",
+        "hasSubtitle": true,
+        "description": "gender,age,university,degree_level,degree_major,academic_year,cgpa,residential_status,campus_discrimination,sports_engagement,average_sleep,study_satisfaction,academic_workload ,academic_pressure,financial_concerns,social_relationships,depression,anxiety,isolation,future_insecurity,stress_relief_activities\nMale,20,PU,Undergraduate,Data Science,2nd year,3.0-3.5,Off-Campus,No,No Sports,4-6 hrs,5,4,5,4,3,2,1,1,2,Religious Activities, Social Connections, Online Entertainment\nMale,20,UET,Postgraduate,Computer Science,3rd year,3.0-3.5,Off-Campus,No,1-3 times,4-6 hrs,5,4,4,1,3,3,3,3,4,Online Entertainment\nMale,20,FAST,Undergraduate,Computer Science,3rd year,2.5-3.0,Off-Campus,No,1-3 times,2-4 hrs,5,5,5,3,4,2,3,3,1,Religious Activities, Sports and Fitness, Online Entertainment\nMale,20,UET,Undergraduate,Computer Science,3rd year,2.5-3.0,On-Campus,No,No Sports,4-6 hrs,3,5,4,4,1,5,5,5,3,Online Entertainment\nFemale,20,UET,Undergraduate,Computer Science,3rd year,3.0-3.5,Off-Campus,Yes,No Sports,4-6 hrs,3,5,5,2,3,5,5,4,4,Online Entertainment\nFemale,20,UET,Undergraduate,Computer Science,3rd year,3.0-3.5,Off-Campus,No,No Sports,4-6 hrs,4,5,5,3,3,5,5,5,5,Religious Activities, Social Connections, Online Entertainment\nMale,26,PU,Postgraduate,Data Science,1st year,2.5-3.0,On-Campus,Yes,1-3 times,7-8 hrs,4,4,4,5,2,5,4,4,5,Social Connections, Online Entertainment\nMale,22,PU,Undergraduate,Data Science,2nd year,3.0-3.5,Off-Campus,Yes,No Sports,4-6 hrs,3,4,4,5,4,3,2,2,4,Religious Activities, Social Connections, Online Entertainment\nMale,20,COMSATS,Undergraduate,Computer Science,3rd year,2.5-3.0,Off-Campus,Yes,1-3 times,4-6 hrs,3,4,3,4,2,3,4,3,5,Religious Activities, Social Connections, Online Entertainment, Outdoor Activities\nMale,23,COMSATS,Undergraduate,Computer Science,3rd year,2.5-3.0,Off-Campus,No,No Sports,4-6 hrs,3,5,3,5,1,5,5,5,5,Sports and Fitness\nMale,20,COMSATS,Undergraduate,Computer Science,2nd year,3.0-3.5,On-Campus,No,No Sports,4-6 hrs,5,4,4,1,4,3,3,1,3,Religious Activities, Online Entertainment\nMale,20,COMSATS,Undergraduate,Computer Science,3rd year,3.0-3.5,Off-Campus,No,1-3 times,4-6 hrs,4,5,4,4,4,2,3,1,2,Religious Activities, Sports and Fitness, Social Connections, Online Entertainment, Outdoor Activities\nMale,21,COMSATS,Undergraduate,Computer Science,3rd year,3.5-4.0,On-Campus,No,No Sports,4-6 hrs,5,3,5,5,1,4,4,4,2,Nothing\nMale,19,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,No,No Sports,4-6 hrs,3,3,4,5,3,5,4,5,1,Religious Activities\nFemale,20,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,No,No Sports,4-6 hrs,3,3,3,3,2,4,3,5,3,Religious Activities\nFemale,19,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,Yes,No Sports,7-8 hrs,5,3,3,4,3,1,1,1,3,Religious Activities, Social Connections, Online Entertainment\nFemale,20,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,No,No Sports,2-4 hrs,5,4,4,3,1,3,2,3,1,Social Connections\nMale,19,PU,Undergraduate,Data Science,1st year,2.5-3.0,Off-Campus,No,No Sports,7-8 hrs,5,3,5,3,3,2,2,3,1,Religious Activities\nFemale,19,PU,Undergraduate,Data Science,1st year,3.5-4.0,Off-Campus,No,1-3 times,4-6 hrs,4,4,3,3,2,4,4,3,2,Religious Activities, Creative Outlets, Social Connections\nMale,19,PU,Undergraduate,Data Science,1st year,3.5-4.0,Off-Campus,Yes,1-3 times,4-6 hrs,5,4,4,5,3,5,5,4,3,Sports and Fitness\nFemale,20,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,No,1-3 times,7-8 hrs,5,4,4,2,3,1,2,2,2,Social Connections\nFemale,19,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,Yes,No Sports,4-6 hrs,4,5,5,2,2,4,4,5,5,Religious Activities, Social Connections\nMale,20,PU,Undergraduate,Data Science,2nd year,2.5-3.0,Off-Campus,No,No Sports,4-6 hrs,3,5,5,3,3,4,4,3,4,Outdoor Activities\nMale,20,UET,Undergraduate,Computer Science,3rd year,3.5-4.0,Off-Campus,No,1-3 times,4-6 hrs,5,5,4,5,3,5,5,5,3,Religious Activities, Online Entertainment\nFemale,19,PU,Undergraduate,Data Science,1st year,3.5-4.0,Off-Campus,No,1-3 times,4-6 hrs,5,4,4,1,3,3,4,3,3,Religious Activities, Creative Outlets\nMale,19,PU,Undergraduate,Data Science,1st year,3.0-3.5,Off-Campus,No,7+ times,4-6 hrs,5,5,3,5,5,4,1,3,2,Religious Activities, Sports and Fitness, Social Connections, Online Entertainment, Outdoor Activities\nMale,23,PU,Undergraduate,Data Science,2nd year,2.5-3.0,Off-Campus,Yes,1-3 times,7-8 hrs,3,3,4,1,4,3,3,2,3,Religious Activities, Online Entertainment, Outdoor Activities\nMale,20,PU,Undergraduate,Computer Science,1st year,1.5-2.0,Off-Campus,Yes,7+ times,2-4 hrs,1,4,5,5,1,5,5,5,5,Online Entertainment\nMale,18,PU,Undergraduate,Data Science,1st year,2.5-3.0,Off-Campus,No,4-6 times,4-6 hrs,4,3,4,4,4,3,4,4,2,Sports and Fitness, Creative Outlets, Online Entertainment, Outdoor Activities\nMale,20,PU,Undergraduate,Data Science,1st year,3.5-4.0,Off-Campus,No,4-6 times,7-8 hrs,5,5,5,3,5,5,3,3,2,Religious Activities, Outdoor Activities",
+        "hasDescription": true,
+        "isPrivate": false,
+        "keywords": [
+            "research",
+            "mental health",
+            "education",
+            "intermediate",
+            "statistical analysis"
+        ],
+        "licenses": [
+            {
+                "nameNullable": "CC0-1.0",
+                "name": "CC0-1.0",
+                "hasName": true
+            }
+        ],
+        "collaborators": [],
+        "data": []
+    },
+    "errorMessage": "",
+    "hasErrorMessage": false
+}

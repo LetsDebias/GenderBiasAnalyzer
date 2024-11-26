@@ -1,0 +1,43 @@
+{
+    "errorMessageNullable": null,
+    "info": {
+        "datasetSlugNullable": "remote-work-productivity",
+        "ownerUserNullable": "mrsimple07",
+        "usabilityRatingNullable": 1.0,
+        "titleNullable": "Remote Work Productivity",
+        "subtitleNullable": "Remote Work Productivity Dataset",
+        "descriptionNullable": "This dataset contains synthetic data on productivity, working hours, and well-being indicators for remote and in-office workers. It aims to help analyze the impact of work environment on various productivity and well-being metrics.",
+        "datasetId": 5668163,
+        "datasetSlug": "remote-work-productivity",
+        "hasDatasetSlug": true,
+        "ownerUser": "mrsimple07",
+        "hasOwnerUser": true,
+        "usabilityRating": 1.0,
+        "hasUsabilityRating": true,
+        "totalViews": 7316,
+        "totalVotes": 29,
+        "totalDownloads": 1620,
+        "title": "Remote Work Productivity",
+        "hasTitle": true,
+        "subtitle": "Remote Work Productivity Dataset",
+        "hasSubtitle": true,
+        "description": "Employee_ID,Employment_Type,Hours_Worked_Per_Week,Productivity_Score,Well_Being_Score\n1,Remote,29,75,78\n2,In-Office,45,49,47\n3,Remote,34,74,89\n4,Remote,25,81,84\n5,Remote,50,70,74\n6,In-Office,48,66,58\n7,Remote,38,44,76\n8,Remote,35,72,90\n9,Remote,30,70,89\n10,In-Office,40,59,57\n11,Remote,40,77,57\n12,Remote,31,67,69\n13,Remote,37,80,52\n14,Remote,42,78,83\n15,In-Office,47,76,66\n16,Remote,44,81,69\n17,In-Office,58,73,68\n18,In-Office,37,52,64\n19,In-Office,45,58,62\n20,Remote,46,83,58\n21,In-Office,44,56,54\n22,Remote,32,69,57\n23,In-Office,44,59,16\n24,In-Office,57,75,54\n25,In-Office,45,53,85\n26,In-Office,56,66,75\n27,In-Office,46,51,53\n28,In-Office,45,60,56\n29,In-Office,44,64,60\n30,In-Office,38,57,40",
+        "hasDescription": true,
+        "isPrivate": false,
+        "keywords": [
+            "business",
+            "synthetic"
+        ],
+        "licenses": [
+            {
+                "nameNullable": "apache-2.0",
+                "name": "apache-2.0",
+                "hasName": true
+            }
+        ],
+        "collaborators": [],
+        "data": []
+    },
+    "errorMessage": "",
+    "hasErrorMessage": false
+}
