@@ -35,17 +35,19 @@ public class LlamaRAG {
 
     public HttpURLConnection evaluate(String datadescription) throws URISyntaxException, IOException {
 
+        citations.setLength(0);
         float embeddings[] = LlamaEmbeddings.getEmbeddings(datadescription, false);
         int context[] = cis.findClosestContext(embeddings, 3, "gender");
         StringBuffer contextmaterial = new StringBuffer();
         for (int i = 0; i < context.length; i++) {
             int index = context[i];
             StringBuffer paragraph = new StringBuffer();
-            for (int j = Math.max(0, index - 2); j < Math.min(index + 2, cis.size()); j++) {
-                if (cis.getContextFile(j).equals(cis.getContextFile(index))) {
-                    paragraph.append(cis.getContextText(j) + " ");
-                }
-            }
+//            for (int j = Math.max(0, index - 2); j < Math.min(index + 2, cis.size()); j++) {
+//                if (cis.getContextFile(j).equals(cis.getContextFile(index))) {
+//                    paragraph.append(cis.getContextText(j) + " ");
+//                }
+//            }
+            paragraph.append(cis.getContextText(index) + " ");
             if (!cis.getBibtex(index).isBlank()) {
                 System.out.println(i + ": " + cis.getContextFile(index) + " --- " + cis.getContextText(index));
                 System.out.println(parseBibTeX(cis.getBibtex(index)));
